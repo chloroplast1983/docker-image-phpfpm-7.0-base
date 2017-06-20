@@ -54,13 +54,14 @@ RUN buildDeps=" \
 		--enable-bcmath \
 		--enable-pcntl \
 		--enable-ftp \
-        --enable-maintainer-zts \
+                --enable-maintainer-zts \
  		--enable-exif \
-    	--enable-calendar \
-    	--enable-sysvmsg \
-    	--enable-sysvsem \
-    	--enable-sysvshm \
-    	--enable-wddx \
+    	        --enable-calendar \
+                --enable-sysvmsg \
+                --enable-sysvsem \
+                --enable-sysvshm \
+                --enable-wddx \
+                --enable-sockets \
 		--with-curl \
 		--with-openssl \
 		--with-readline \
